@@ -26,7 +26,7 @@ SECRET_KEY = 'lmaowhatasecretkey'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', 'localhost',
-                 'https://gf-makewikiv2.herokuapp.com/']
+                 'gf-makewikiv2.herokuapp.com', '*']  # lmao do not use * in production
 
 
 # Application definition
